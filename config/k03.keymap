@@ -211,7 +211,7 @@
 
         L5 {
             bindings = <
-&trans  &trans    &trans          &msc SCRL_UP    &trans           &kp ESC                                 &kp EQUAL     &kp LG(RGUI)  &trans      &kp PG_DN            &kp LG(LA(SPACE))             &kp LG(SPACE)
+&trans  &trans    &trans          &msc SCRL_UP    &trans           &kp ESC                                 &kp EQUAL     &kp LG(RGUI)  &kp LC(F5)  &kp PG_DN            &kp LG(LA(SPACE))             &kp LG(SPACE)
 &trans  &mkp MB4  &mkp LCLK       &mmv MOVE_UP    &mkp MB2         &kp ESC                                 &kp PLUS      &kp HOME      &kp UP      &kp END              &kp RALT                      &kp PRINTSCREEN
 &trans  &mkp MB3  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans                                  &trans        &kp LEFT      &kp DOWN    &kp RIGHT            &kp RCTRL                     &kp LC(RIGHT_SHIFT)
 &trans  &trans    &trans          &msc SCRL_DOWN  &trans           &trans    &trans      &kp RS(LEFT_GUI)  &trans        &trans        &trans      &trans               &kp LS(LA(LC(LG(KP_ENTER))))  &kp RIGHT_SHIFT
@@ -219,6 +219,16 @@
             >;
 
             label = "L5";
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
