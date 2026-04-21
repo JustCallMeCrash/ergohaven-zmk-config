@@ -144,11 +144,11 @@
 
         L0 {
             bindings = <
-&kp GRAVE     &kp N1          &kp N2     &kp N3        &kp N4  &kp N5                                                                 &kp N6       &kp N7      &kp N8     &kp N9        &kp N0  &lt 6 BACKSLASH
-&lt 3 TAB     &kp APOSTROPHE  &kp COMMA  &kp PERIOD    &kp P   &kp Y                                                                  &kp F        &kp G       &kp C      &kp R         &kp L   &lt 2 SLASH
-&lt 2 INSERT  &kp A           &kp O      &kp E         &kp U   &kp I                                                                  &kp D        &kp H       &kp T      &kp N         &kp S   &lt 3 MINUS
-&kp LSHFT     &kp SEMICOLON   &kp Q      &kp J         &kp K   &kp X          &mt LC(LEFT_SHIFT) LEFT_BRACKET    &lt 0 RIGHT_BRACKET  &kp B        &kp M       &kp W      &kp V         &kp Z   &kp RSHFT
-                              &kp LGUI   &kp LEFT_ALT  &kp F5  &kp BACKSPACE  &mt LCTRL DELETE                   &lt 4 SPACE          &lt 1 ENTER  &kp ESCAPE  &kp RCTRL  &kp LG(RGUI)
+&kp GRAVE     &kp N1          &kp N2     &kp N3        &kp N4     &kp N5                                                                 &kp N6       &kp N7      &kp N8     &kp N9        &kp N0  &lt 6 BACKSLASH
+&lt 3 TAB     &kp APOSTROPHE  &kp COMMA  &kp PERIOD    &kp P      &kp Y                                                                  &kp F        &kp G       &kp C      &kp R         &kp L   &lt 2 SLASH
+&lt 2 INSERT  &kp A           &kp O      &kp E         &kp U      &kp I                                                                  &kp D        &kp H       &kp T      &kp N         &kp S   &lt 3 MINUS
+&kp LSHFT     &kp SEMICOLON   &kp Q      &kp J         &kp K      &kp X          &mt LC(LEFT_SHIFT) LEFT_BRACKET    &lt 0 RIGHT_BRACKET  &kp B        &kp M       &kp W      &kp V         &kp Z   &kp RSHFT
+                              &kp LGUI   &kp LEFT_ALT  &kp EQUAL  &kp BACKSPACE  &mt LCTRL DELETE                   &lt 4 SPACE          &lt 1 ENTER  &kp ESCAPE  &kp RCTRL  &kp LG(RGUI)
             >;
 
             display-name = "Base";
