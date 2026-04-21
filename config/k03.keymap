@@ -2,6 +2,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
@@ -230,7 +231,7 @@
             label = "L6";
             display-name = "Adjust";
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans                                     &kp LG(LS(LC(F16)))  &kp LG(LS(LC(F17)))  &kp LG(F18)          &kp LG(LS(LC(F19)))  &kp LG(LS(LC(F21)))  &trans
+&trans  &out OUT_TOG  &trans        &trans        &trans        &trans                                     &kp LG(LS(LC(F16)))  &kp LG(LS(LC(F17)))  &kp LG(F18)          &kp LG(LS(LC(F19)))  &kp LG(LS(LC(F21)))  &trans
 &trans  &trans        &trans        &trans        &trans        &trans                                     &kp LG(LS(LC(F1)))   &kp LG(LS(LC(F2)))   &kp LG(LS(LC(F3)))   &kp LG(LS(LC(F4)))   &kp LG(LS(LC(F5)))   &trans
 &trans  &trans        &trans        &trans        &trans        &trans                                     &kp LG(LS(LC(F6)))   &kp LG(LS(LC(F7)))   &kp LG(LS(LC(F8)))   &kp LG(LS(LC(F9)))   &kp LG(LS(LC(F10)))  &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans    &trans             &kp LG(LS(LC(F11)))  &kp LG(LS(LC(F12)))  &kp LG(LS(LC(F13)))  &kp LG(LC(LS(F14)))  &kp LG(LS(LC(F15)))  &kp RIGHT_SHIFT
