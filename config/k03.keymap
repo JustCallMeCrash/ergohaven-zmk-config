@@ -128,7 +128,7 @@
         m5: m5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(D) &kp E &kp V &kp LS(O) &kp P &kp S &kp N2 &kp N0 &kp N2 &kp N6 &kp DLLR &kp DLLR &kp ENTER>;
+            bindings = <&none &kp LS(D) &kp E &kp V &kp N0 &kp P &kp S &kp N2 &kp N0 &kp N2 &kp N6 &kp DLLR &kp DLLR &kp ENTER>;
             label = "M5";
         };
 
